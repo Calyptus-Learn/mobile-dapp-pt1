@@ -33,7 +33,7 @@ class MainActivity : ComponentActivity() {
                         modifier = Modifier.padding(16.dp),
                     ) {
                         WalletConnectButton(
-                            identityUri = Uri.parse(application.getString((R.string.id_url))),
+                            identityUri = Uri.parse(application.getString(R.string.id_url)),
                             iconUri = Uri.parse(application.getString(R.string.id_favicon)),
                             identityName = application.getString(R.string.app_name),
                             activityResultSender = activityResultSender,
